@@ -1,0 +1,58 @@
+/* General Styles */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-logo {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.nav-link {
+  margin-right: 10px;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 0.3em 0.5em;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-nav {
+    margin-top: 1rem;
+  }
+
+  .nav-item {
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-link {
+    text-align: center;
+    width: 100%;
+  }
+}
